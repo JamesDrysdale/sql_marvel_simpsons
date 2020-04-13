@@ -58,6 +58,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 -- INSERT INTO people (name) VALUES ('Bart Simpson');  -- Task 6 complete
 -- DELETE FROM people where name = 'Eric Cartman'; -- Task 7 complete
 -- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '24:00'); --Task 8 complete
-
+-- SELECT show_time FROM movies WHERE title = 'Iron Man 2'; -- Task 9 pt1 - find out time Iron Man 2 is on
+UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3'; -- Task 9 pt2 - set Iron Man 3 to show 2hrs later
 -- SELECT name FROM people 
 SELECT * FROM movies
