@@ -56,6 +56,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 -- SELECT name FROM people WHERE id = 1  -- Task 4 complete
 -- DELETE FROM movies WHERE title = 'Batman Begins';  --Task 5 complete
 -- INSERT INTO people (name) VALUES ('Bart Simpson');  -- Task 6 complete
+DELETE FROM people where name = 'Eric Cartman';
 
 SELECT name FROM people 
 -- SELECT * FROM movies
